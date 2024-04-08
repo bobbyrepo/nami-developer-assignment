@@ -57,7 +57,7 @@ export const tasksData: Task[] = [
     btnText: "View Details",
     pendingStatus: {
       pending: false,
-      taskTime: 20
+      taskTime: 0
     },
     rating: {
       rated: false,
@@ -78,7 +78,7 @@ export const tasksData: Task[] = [
     btnText: "View Details",
     pendingStatus: {
       pending: false,
-      taskTime: 20
+      taskTime: 0
     },
     rating: {
       rated: true,
@@ -120,7 +120,7 @@ export const tasksData: Task[] = [
     btnText: "View Details",
     pendingStatus: {
       pending: false,
-      taskTime: 20
+      taskTime: 0
     },
     rating: {
       rated: false,
@@ -141,7 +141,7 @@ export const tasksData: Task[] = [
     btnText: "View Details",
     pendingStatus: {
       pending: false,
-      taskTime: 20
+      taskTime: 0
     },
     rating: {
       rated: true,
@@ -183,7 +183,7 @@ export const tasksData: Task[] = [
     btnText: "View Details",
     pendingStatus: {
       pending: false,
-      taskTime: 20
+      taskTime: 0
     },
     rating: {
       rated: false,
@@ -204,7 +204,7 @@ export const tasksData: Task[] = [
     btnText: "View Details",
     pendingStatus: {
       pending: false,
-      taskTime: 20
+      taskTime: 0
     },
     rating: {
       rated: true,
@@ -247,7 +247,7 @@ export const tasksData: Task[] = [
     btnText: "View Details",
     pendingStatus: {
       pending: false,
-      taskTime: 20
+      taskTime: 0
     },
     rating: {
       rated: false,
@@ -268,11 +268,53 @@ export const tasksData: Task[] = [
     btnText: "View Details",
     pendingStatus: {
       pending: false,
-      taskTime: 20
+      taskTime: 0
+    },
+    rating: {
+      rated: false,
+      star: 0
+    }
+  },
+  {
+    id: 13,
+    taskCreator: "Rajesh",
+    taskStatus: [],
+    taskRepeat: false,
+    taskName: "Routine Cleaning",
+    taskType: "Guest Task",
+    taskCreated: " 21 Jul 2024 | 03:00 am",
+    taskId: "#68988",
+    taskFrom: "Pantry",
+    taskTo: "Reception",
+    btnText: "View Details",
+    pendingStatus: {
+      pending: false,
+      taskTime: 0
+    },
+    rating: {
+      rated: false,
+      star: 0
+    }
+  },
+  {
+    id: 14,
+    taskCreator: "Rajesh",
+    taskStatus: ["Delayed", "Complaint"],
+    taskRepeat: false,
+    taskName: "Routine Cleaning",
+    taskType: "Internal Task",
+    taskCreated: " 21 Jul 2024 | 03:00 am",
+    taskId: "#68988",
+    taskFrom: "Pantry",
+    taskTo: "Reception",
+    btnText: "View Details",
+    pendingStatus: {
+      pending: false,
+      taskTime: 0
     },
     rating: {
       rated: true,
-      star: 5
+      star: 1
     }
   }
 ];
