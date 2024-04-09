@@ -159,7 +159,7 @@ export const tasksData: Task[] = [
     taskId: "#68988",
     taskFrom: "Pantry",
     taskTo: "Reception",
-    btnText: "Notify Staff",
+    btnText: "",
     pendingStatus: {
       pending: true,
       taskTime: 20

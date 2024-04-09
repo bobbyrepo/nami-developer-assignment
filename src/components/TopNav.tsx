@@ -4,16 +4,16 @@ import userIcon from "../assets/icons/Ellipse 185.png"
 
 const TopNav = () => {
     return (
-        <nav className="flex h-[100px] items-center justify-between px-10 py-2 border-b border-gray-400">
-            <div className="font-semibold text-3xl">ABCHotel</div>
-            <div className="inline-flex items-start gap-[40px] ">
+        <nav className="flex md:h-[100px] h-[70px] items-center justify-between md:px-10 px-6 py-2 border-b border-gray-400">
+            <div className="font-semibold md:text-3xl text-2xl">ABCHotel</div>
+            <div className="inline-flex items-start md:gap-[40px] gap-6 ">
                 <img
-                    className="w-[48px] h-[48px]"
+                    className="md:w-[48px] w-[36px]"
                     alt="bell"
                     src={notification}
                 />
                 <img
-                    className="w-[48px] h-[48px]"
+                    className="md:w-[48px] w-[40px]"
                     alt="profile_icon"
                     src={userIcon}
                 />
